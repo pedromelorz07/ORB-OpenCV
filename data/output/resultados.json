@@ -1,0 +1,32 @@
+{
+  "opencv_version": "5.0.0",
+  "parametros": {
+    "nfeatures": 500,
+    "WTA_K": 2,
+    "scoreType": "HARRIS",
+    "ratio": 0.75,
+    "rotation_degrees": null,
+    "noise_sigma": 0.0
+  },
+  "imagem1": {
+    "arquivo": "data\\input\\foto1.jpg",
+    "keypoints": 500,
+    "descriptors_shape": [
+      500,
+      32
+    ],
+    "tempo_orb_ms": 1116.315
+  },
+  "imagem2_e_matching": {
+    "keypoints": 500,
+    "descriptors_shape": [
+      500,
+      32
+    ],
+    "tempo_orb_ms": 5.218,
+    "correspondencias_apos_ratio": 84,
+    "tempo_matching_ms": 0.969,
+    "ransac_inliers": 75,
+    "ransac_inlier_ratio_pct": 89.29
+  }
+}
