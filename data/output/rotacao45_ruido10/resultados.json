@@ -10,12 +10,12 @@
   },
   "imagem1": {
     "arquivo": "data\\input\\exemplo.png",
-    "keypoints": 504,
+    "keypoints": 500,
     "descriptors_shape": [
-      504,
+      500,
       32
     ],
-    "tempo_orb_ms": 1125.849
+    "tempo_orb_ms": 679.434
   },
   "imagem2_e_matching": {
     "keypoints": 500,
@@ -23,13 +23,13 @@
       500,
       32
     ],
-    "tempo_orb_ms": 5.314,
-    "correspondencias_apos_ratio": 223,
-    "tempo_matching_ms": 1.143,
-    "acertos_geometricos": 214,
-    "precisao_geometrica_pct": 95.96,
+    "tempo_orb_ms": 8.478,
+    "correspondencias_apos_ratio": 313,
+    "tempo_matching_ms": 1.294,
+    "acertos_geometricos": 292,
+    "precisao_geometrica_pct": 93.29,
     "limiar_erro_px": 3.0,
-    "ransac_inliers": 213,
-    "ransac_inlier_ratio_pct": 95.52
+    "ransac_inliers": 297,
+    "ransac_inlier_ratio_pct": 94.89
   }
 }
